@@ -131,12 +131,5 @@ class Rings:
         ...
 
 
-
-
-
 if __name__ == "__main__":
     doctest.testmod()
-
-G = Groups(6)
-H = Groups(2)
-print(G.quotient(H))
